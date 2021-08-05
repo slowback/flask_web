@@ -1,0 +1,55 @@
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="container-fluid">
+    <h3>Sakkara Buathong</h3>
+    <div class="social-links">
+      <a href="https://www.facebook.com/sakkara.buathong/" class="facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/sakkara-buathong-6523591ab/" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://github.com/slowback" class="github"><i class="fab fa-github fa-2x"></i></a>
+    </div>
+    <div class="copyright">
+      &copy; Copyright <strong><span>sakkara</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by <a href="#">sakkara</a>
+    </div>
+  </div>
+
+</footer><!-- End Footer -->
+
+
+<!-- <div id="preloader"></div> -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+<!-- Script back-to-top -->
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+<!-- CDN AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+
+</html>
