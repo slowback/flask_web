@@ -1,12 +1,10 @@
-/**
-* Template Name: MyResume - v4.3.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: "OpenSans", sans-serif;
@@ -87,7 +85,7 @@ h6 {
 #section-heading {
   height: 80vh;
   position: relative;
-  background-color: #E6E5EB;
+  background-color: #e6e5eb;
 }
 
 .heading {
@@ -96,7 +94,7 @@ h6 {
 
 .heading h1 {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "MonteCarlo", cursive;
   font-size: 5rem;
   font-weight: 900;
   color: #4b2be6;
@@ -278,7 +276,7 @@ h6 {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #dc1616;
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -286,5 +284,5 @@ h6 {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #6e6363;
 }

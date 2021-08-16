@@ -1,0 +1,38 @@
+{% include "header.html" %}
+
+{% block header %}
+<link href='/static/css/style_game.css' , rel="stylesheet">
+{% block title %}<title>Register</title>{% endblock %}
+{% endblock %}
+
+<body>
+  <header>
+    <h1>Guess My Number!</h1>
+    <p class='between'>Between 1 and 20</p>
+    <button class='btn again'>Again!</button>
+    <button class='btn exit'>Go back!</button>
+    <p class='number'>?</p>
+  </header>
+  <main>
+    <section class='left'>
+      <input type="number" class='guess'>
+      <button class='btn check'>
+        Check!
+      </button>
+    </section>
+    <section class='right'>
+      <p class='message'>Start guessing...</p>
+      <p class='label-score'>💯 Score: <span class='score'>20</span></p>
+      <p class='label-highscore'>🥇 Highscore: <span class='highscore'>0</span></p>
+    </section>
+  </main>
+  <div class='show-popup hidden'>
+    <h2>Confirm ?</h2>
+    <a role="button" class="btn btn-left go-back" href="{{ url_for('home') }}">Yes</a>
+    <a type="button" class="btn play-again">No</a>
+  </div>
+  <div class="overlay hidden"></div>
+  <script src='/static/js/guess_game.js'></script>
+</body>
+
+</html>
